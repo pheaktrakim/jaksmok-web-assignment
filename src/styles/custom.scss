@@ -1,0 +1,77 @@
+body{
+  font-family: DM Sans,ui-sans-serif !important;
+}
+
+.h-100{
+  min-height: 100vh !important;
+}
+
+.bg-cus{
+  background: #78ba7b !important;
+}
+
+.text-cus{
+  color: #78ba7b !important;
+}
+.nav-link{
+  text-decoration: none !important;
+  padding: 12px 0px 0px 0px !important;
+}
+
+.nav-item:hover{
+  border-radius: 8px;
+  background: #dee2e6 !important;
+  cursor: pointer;
+}
+.bg-active{
+  background: #78ba7b !important;
+  border-radius: 8px;
+}
+
+.text-menu-item{
+  color: black !important;
+  font-weight: 500;
+}
+
+.box div{
+  background: #78ba7b !important;
+}
+
+.page-item.active .page-link{
+  background-color:#78ba7b !important;
+  border-color:#78ba7b !important;
+}
+
+.page-link{
+  color:#78ba7b !important;
+}
+
+.page-item.active .page-link{
+  color: white !important;
+}
+
+.box{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  min-height: 200px;
+  padding: 70px 0;
+  margin: 10px !important;
+  padding: 10px;
+  color: black;
+  text-decoration: none !important;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+/* phone men show */
+@media only screen and (min-width: 768px) {
+  .phone-menu-call {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar-menu{
+    display: none;
+  }
+}
